@@ -12,7 +12,7 @@
 </p>
 
 <p>
-<h5>Information:</h5>
+<h5>Description:</h5>
 X1 : Perseverance <br>
 X2 : Parental Guidance <br>
 Y  : Student Achievement
