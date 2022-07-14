@@ -3,7 +3,7 @@ let data__X1=[],data__X2=[],data__Y=[],
 
 const dataTotal = 30,
       display = document.querySelector('tbody'),
-      btnSave = document.querySelector('button');
+      btnSave = document.getElementById('btn');
 /*
     Decsription :
     X1 = Perseverance
@@ -111,3 +111,8 @@ const dataTotal = 30,
     `;
 
     display.innerHTML = temp;
+
+btnSave.addEventListener('click',() => {
+    var table2excel = new Table2Excel();
+    table2excel.export(document.querySelectorAll("table.paper"));
+});
