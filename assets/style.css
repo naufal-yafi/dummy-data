@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./font/Poppins-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #fff;
+} button:hover {
+    border: 1px solid #000;
+}
+
+table {
+    border: none;
+}
+
+th {
+    padding: .7rem 1rem;
+} td {
+    text-align: center;
+}
+
+th,td {
+    border: 1px solid;
+}
+
+.dark {
+    background: rgb(221, 221, 221);
+}
+
+.total {
+    padding: .5rem 1rem;
+    border-top: 4.5px double #000;
+}
+
+.btn {
+    text-align: end;
+    border: none;
+    padding-bottom: 1rem;
+}
